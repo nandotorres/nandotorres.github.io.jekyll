@@ -2,5 +2,6 @@
 set -e # halt script on error
 
 echo 'nandotorres.com' >> ./_site/CNAME
+
 bundle exec jekyll build
 bundle exec htmlproofer ./_site
